@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&display=swap');
+@import url('satoshi.css');
 
 :root {
     --color-verde: #AEFF5C;
@@ -45,7 +46,7 @@ body {
 }
 
 .Profile {
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +73,7 @@ body {
 
 .navbar-opt-on {
     color: white;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -88,7 +89,7 @@ body {
 
 .navbar-opt-off {
     color: #FFF;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -166,7 +167,7 @@ body {
 #G_Dato {
     margin-top: 1rem;
     color: #000;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -176,7 +177,7 @@ body {
 #G_Nombre {
     margin-top: -1.5rem;
     color: #000;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -192,7 +193,7 @@ body {
     color: #000;
     margin-left: -1.5rem;
     text-align: center;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -222,7 +223,7 @@ body {
     margin-top: 1rem;
     margin-left: 1rem;
     color: #000;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -233,7 +234,7 @@ body {
     margin-top: -1.5rem;
     margin-left: 1rem;
     color: #000;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -250,7 +251,7 @@ body {
     color: #000;
     margin-left: -1.5rem;
     text-align: center;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

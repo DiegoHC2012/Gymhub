@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&display=swap');
+@import url('satoshi.css');
 
 :root {
     --color-verde: #AEFF5C;
@@ -45,7 +46,7 @@ body {
 }
 
 .Profile {
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +73,7 @@ body {
 
 .navbar-opt-on {
     color: white;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -88,7 +89,7 @@ body {
 
 .navbar-opt-off {
     color: #FFF;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -228,7 +229,7 @@ body {
 .C_Header {
     margin-left: 2.5rem;
     color: var(--Letras1);
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 24px;
     font-style: normal;
     font-weight: 900;
@@ -244,7 +245,7 @@ body {
     max-height: 47%;
     margin-left: 2.5rem;
     color: var(--Letras1);
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
@@ -267,7 +268,7 @@ body {
     border: 1px solid #B6DF8D;
     background-color: #0C0C13;
     color: #D6FFAC;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -308,7 +309,7 @@ body {
     margin-left: 2rem;
     margin-top: 1rem;
     color: #000;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -319,7 +320,7 @@ body {
     margin-left: 2rem;
     margin-top: -1.5rem;
     color: #000;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -336,7 +337,7 @@ body {
     color: #000;
     margin-left: -1.5rem;
     text-align: center;
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -377,7 +378,7 @@ body {
 
 .grid-container-personalizadas .header {
     color: var(--Letras1, #FFF);
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -387,7 +388,7 @@ body {
 
 .grid-container-personalizadas .item {
     color: var(--Letras1, #FFF);
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 14px;
     font-style: normal;
     font-weight: 200;
@@ -420,7 +421,7 @@ body {
 
 .grid-container-grupales .header {
     color: var(--Letras1, #FFF);
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -430,7 +431,7 @@ body {
 
 .grid-container-grupales .item {
     color: var(--Letras1, #FFF);
-    font-family: Satoshi;
+    font-family: Satoshi-Regular;
     font-size: 14px;
     font-style: normal;
     font-weight: 200;
