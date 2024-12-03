@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&display=swap');
+@import url('satoshi.css');
+
+:root {
+    --color-verde: #AEFF5C;
+    --color-lima: #D6FFAC;
+    --text-box: #010102;
+    --Fondo: #0C0C13;
+    --Error: none;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--Fondo);
+    color: white;
+}
+
+.logo {
+    display: flex;
+    width: 240px;
+}
+
+.logo :hover {
+    cursor: pointer;
+}
+
+.navbar {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.navbar-opt {
+    display: flex;
+    width: 785px;
+    justify-content: space-between;
+}
+
+.navbar-opt:hover {
+    cursor: pointer;
+}
+
+.Profile {
+    font-family: Satoshi-Regular;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 11rem;
+}
+
+.Profile-photo {
+    width: 58px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.Profile-photo:hover {
+    cursor: pointer;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navbar-opt-on {
+    color: white;
+    font-family: Satoshi-Regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    transition-duration: 80ms;
+}
+
+.navbar-opt-off {
+    color: #FFF;
+    font-family: Satoshi-Regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition-duration: 90ms;
+}
+
+.n-Inicio:hover {
+    font-size: 18.3px;
+    font-weight: 600;
+}
+
+.n-Entrenadores:hover {
+    font-size: 18.3px;
+    font-weight: 500;
+}
+
+.n-Trabajadores:hover {
+    font-size: 18.3px;
+    font-weight: 500;
+}
+
+.n-Membresias:hover {
+    font-size: 18.3px;
+    font-weight: 500;
+}
+
+.ellipse1 {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    transform: rotate(50.7deg);
+    flex-shrink: 0;
+    border-radius: 500px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.54) 0%, rgba(0, 0, 0, 0.54) 100%), linear-gradient(198deg, #B4FF28 4.32%, #637DFF 46.05%, #F02961 87.78%);
+    filter: blur(58.20000076293945px);
+    z-index: -1; /* Nivel inferior */
+}
+
+.ellipse1 {
+    position: fixed;
+    left: 10%;
+    top: -36%;
+}
+
+.body {
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55rem;
+    width: 100%;
+}
+
+.grid1 {
+    height: 370px;
+    width: 70%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, minmax(350px, 1fr)); /* Exactamente 3 columnas */
+    justify-content: center; /* Centra el grid completo */
+    align-items: center;
+}
+
+.G_Style_S {
+    height: 350px;
+    width: 390px;
+    padding-left: 1.5rem;
+    border-radius: 20px;
+    background: linear-gradient(0deg, #D6FFAC 0%, #D6FFAC 100%);
+    transition-duration: 80ms;
+}
+
+#G_Dato {
+    margin-top: 1rem;
+    color: #000;
+    font-family: Satoshi-Regular;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#G_Nombre {
+    margin-top: -1.5rem;
+    color: #000;
+    font-family: Satoshi-Regular;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#G_Grafica {
+    background-color: #000;
+    width: 93%;
+    height: 186px;
+}
+
+#G_Footer {
+    color: #000;
+    margin-left: -1.5rem;
+    text-align: center;
+    font-family: Satoshi-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.grid2 {
+    margin-top: 1.6rem;
+    height: 460px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(540px, 1fr)); /* Exactamente 3 columnas */
+    justify-content: center; /* Centra el grid completo */
+    align-items: center;
+    gap: 1rem; /* Espacio entre los elementos */
+}
+
+.G_Style_B {
+    padding-left: 1rem;
+    height: 449px;
+    width: 630px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #AEFF5C 50%, #689937 100%);
+}
+
+#G_Dato_B {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #000;
+    font-family: Satoshi-Regular;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#G_Nombre_B {
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+    color: #000;
+    font-family: Satoshi-Regular;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#G_Grafica_B {
+    background-color: #000;
+    margin-left: 0.8rem;
+    width: 93%;
+    height: 290px;
+}
+
+#G_Footer_B {
+    color: #000;
+    margin-left: -1.5rem;
+    text-align: center;
+    font-family: Satoshi-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
