@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&display=swap');
+@import url('satoshi.css');
+
+:root {
+    --color-verde: #AEFF5C;
+    --color-lima: #D6FFAC;
+    --text-box: #010102;
+    --Fondo: #0C0C13;
+    --Error: none;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--Fondo);
+    color: white;
+}
+
+.logo {
+    display: flex;
+    width: 240px;
+}
+
+.logo :hover {
+    cursor: pointer;
+}
+
+.navbar {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.navbar-opt {
+    display: flex;
+    width: 785px;
+    justify-content: space-between;
+}
+
+.navbar-opt :hover {
+    cursor: pointer;
+}
+
+.Profile {
+    font-family: Satoshi-Regular;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 11rem;
+}
+
+.Profile-photo {
+    width: 58px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.Profile-photo:hover {
+    cursor: pointer;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navbar-opt-on {
+    color: white;
+    font-family: Satoshi-Regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    transition-duration: 80ms;
+}
+
+.navbar-opt-off {
+    color: #FFF;
+    font-family: Satoshi-Regular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition-duration: 90ms;
+}
+
+.n-Inicio:hover {
+    font-size: 18.3px;
+    font-weight: 500;
+}
+
+.n-Entrenadores:hover {
+    font-size: 18.3px;
+    font-weight: 500;
+}
+
+.n-Trabajadores:hover {
+    font-size: 18.3px;
+    font-weight: 500;
+}
+
+.n-Membresias:hover {
+    font-size: 18.3px;
+    font-weight: 500;
+}
+
+.ellipse {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    transform: rotate(50.7deg);
+    flex-shrink: 0;
+    border-radius: 500px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.54) 0%, rgba(0, 0, 0, 0.54) 100%), linear-gradient(198deg, #B4FF28 4.32%, #637DFF 46.05%, #F02961 87.78%);
+    filter: blur(58.20000076293945px);
+    z-index: -1; /* Nivel inferior */
+}
+
+#e1 {
+    position: fixed;
+    left: 10%;
+    top: -36%;
+}
+
+#e2 {
+    position: fixed;
+    right: -15%;
+    bottom: -15%;
+}
+
+#Opciones {
+    position: fixed;
+    left: 2.5%;
+    top: 40%;
+    z-index: 2;
+}
+
+#Opciones {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #AEFF5C;
+    width: 66px;
+    height: 204px;
+}
+
+.Op_on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 100%;
+    background: #82BE45;
+}
+
+.Op_on :hover {
+    cursor: pointer;
+}
+
+.Op_off {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    transition-duration: 1000ms;
+}
+
+.Op_off :hover {
+    cursor: pointer;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.body {
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 2000px;
+    width: 100%;
+}
+
+.container {
+    width: 83%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.9%;
+    /*justify-content: space-between;*/
+}
+
+.fila {
+    width: 100%;
+    height: 100%;
+}
+
+.f_1 {
+    height: auto;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 27% 32% 27%;
+    gap: 7%; /* Espacio restante entre los elementos */
+    width: 100%; /* El div padre ocupa todo el ancho */
+}
+
+.Grafica {
+    height: 100%;
+    border-radius: 20px;
+}
+
+.G_Ingresos {
+    background-color: #AEFF5C;
+}
+
+.G_S {
+    background-color: var(--color-lima);
+}
+
+.G_Style_S {
+    height: 350px;
+    width: 390px;
+    padding-left: 1.5rem;
+    border-radius: 20px;
+    transition-duration: 80ms;
+}
+
+#G_Dato {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: #000;
+    font-family: Satoshi-Regular;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#G_Nombre {
+    margin-left: 2rem;
+    margin-top: -1.5rem;
+    color: #000;
+    font-family: Satoshi-Regular;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#G_Grafica {
+    margin-left: 7%;
+    background-color: #000;
+    width: 85%;
+    height: 320px;
+}
+
+#G_Footer {
+    color: #000;
+    margin-left: -1.5rem;
+    text-align: center;
+    font-family: Satoshi-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.f_2 {
+    height: auto;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 53.8% 42.4%;
+    gap: 3.8%; /* Espacio restante entre los elementos */
+    width: 100%; /* El div padre ocupa todo el ancho */
+}
+
+.Clases_Grupales {
+    height: 100%;
+    border-radius: 20px;
+    background: #08080D;
+}
+
+.C_Header {
+    margin-left: 2.5rem;
+    color: var(--Letras1);
+    font-family: Satoshi-Regular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.C_Flujo_Horario_Datos {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.Clases_Grupales {
+    height: 100%;
+    border-radius: 20px;
+    background: #08080D;
+}
+
+.C_Clases_Grupales_Datos {
+    height: 53.6%;
+}
+
+.grid-container-grupales {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 2fr; /* Ajustamos a 3 columnas */
+    gap: 1rem;
+    align-items: center;
+}
+
+.grid-container-grupales .header {
+    color: var(--Letras1, #FFF);
+    font-family: Satoshi-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.grid-container-grupales .item {
+    color: var(--Letras1, #FFF);
+    font-family: Satoshi-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    padding: 0.1rem 0;
+}
+
+.grid-container-grupales .header {
+    border-bottom: 2px solid #B6DF8D; /* Línea separadora */
+}
+
+.Container_Btn_Ver_Detalles {
+    width: 95%;
+    display: flex;
+    justify-content: right;
+}
+
+.Btn_Ver_Detalles {
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #B6DF8D;
+    background-color: #0C0C13;
+    color: #D6FFAC;
+    font-family: Satoshi-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 1rem;
+}
+
+.Btn_Ver_Detalles:hover {
+    cursor: pointer;
+    border: 1px solid #92d84c;
+    color: #92d84c;
+}
+
+.Btn_Ver_Detalles:hover svg path {
+    fill: #92d84c !important; /* Cambia el color del SVG al hacer hover */
+}
+
+#btn_ultimas_asistencias {
+    padding-top: 3rem;
+}
+
+.f_3 {
+    height: auto;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 27% 32% 27%;
+    gap: 7%; /* Espacio restante entre los elementos */
+    width: 100%; /* El div padre ocupa todo el ancho */
+}
+
+.Container_registar_visita {
+    background: rgba(8, 8, 13, 0.60);
+    padding-top: 0.5rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 18rem;
+}
+
+#Header_Registrar_Asistencia {
+    width: 100%;
+    text-align: center;
+}
+
+.C_Body {
+    width: 90%;
+}
+
+.C_Body_Grid {
+    height: auto;
+    display: grid;
+    grid-template-columns: 30.3% 5px 59%;
+    gap: 2.85%; /* Espacio restante entre los elementos */
+    width: 100%; /* El div padre ocupa todo el ancho */
+}
+
+#loginform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 0.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 0.96rem;
+}
+
+#boton {
+    margin-top: 0.7rem;
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    border:none;
+    background-color: var(--color-verde);
+    font-family: Satoshi-Regular, sans-serif;
+    font-weight: 800;
+    font-size: 0.96rem;
+    transition-duration: 80ms;
+}
+
+.linea {
+    height: 100%;
+    background: #14141C;
+}
+
+.textbox_container {
+    display: flex;
+}
+
+#btn_buscar {
+    width: 2.5rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    border: 1px solid var(--OL-1, #B6DF8D);
+    background: var(--Color1, #AEFF5C);
+    margin-left: 0.5rem;
+}
+
+#btn_buscar:hover {
+    background-color: var(--color-lima);
+    cursor: pointer;
+}
+
+#boton:hover {
+    background-color: var(--color-lima);
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+
+.textbox {
+    padding-left: 1rem;
+    width: 80%;
+    height: 2.5rem;
+    border-inline: none;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background: var(--text-box);
+    color: var(--color-verde);
+    font-size: 14px;
+}
+
+.Datos_miembro {
+    padding-left: 6rem;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 13.8% 65%;
+    gap: 10%; /* Espacio restante entre los elementos */
+    width: 100%; /* El div padre ocupa todo el ancho */
+}
+
+.D_Pt1 {
+    height: 100%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0rem;
+    color: #A0A2B1;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.Estado {
+    display: flex;
+    width: 80%;
+    height: 33px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #23232B;
+    background: #0A0A0E;
+    color: var(--Letras5, #AEFF5C);
+    text-align: center;
+    font-family: Satoshi-Bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 1rem;
+    margin-top: -0.5rem;
+}
+
+.leyenda_estado {
+    margin-left: 11%;
+    width: 100%;
+}
+
+.Profile-photo-matricula {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.D_Pt2 {
+    height: 100%;
+    margin-top: 0;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    gap: 9.5%; /* Espacio restante entre los elementos */
+    color: #A0A2B1;
+    font-family: Satoshi-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.dato_box {
+    display: flex;
+    width: 80%;
+    height: 33px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background: #010102;
+    color: #FFF;
+    font-family: Satoshi-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 1rem;
+    margin-top: -0.5rem;
+}
